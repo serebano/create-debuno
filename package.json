@@ -1,0 +1,8 @@
+{
+    "name": "create-debuno",
+    "version": "0.0.2",
+    "module": "index.ts",
+    "bin": {
+        "create-debuno": "bin/create-debuno"
+    }
+}
