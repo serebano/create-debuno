@@ -1,8 +1,14 @@
 {
     "name": "create-debuno",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "module": "index.ts",
     "bin": {
         "create-debuno": "bin/create-debuno"
-    }
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/serebano/create-debuno.git"
+    },
+    "homepage": "https://debuno.dev",
+    "description": "Create debuno project. Bring Deno module resolution to Bun & Node"
 }

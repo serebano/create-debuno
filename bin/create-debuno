@@ -1,5 +1,8 @@
 #/bin/sh
 
-curl -o- https://debuno.dev/install | sh
+if [ "$(command -v debuno)" == "" ]; then
+    curl -fsSL https://debuno.dev/install | sh
+    clear
+fi
 
-debuno init $@
+debuno init "$@"
